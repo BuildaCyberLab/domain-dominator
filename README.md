@@ -1,4 +1,11 @@
 # **Domain Dominator**  
+
+![image](https://github.com/user-attachments/assets/d19aa371-b705-4d09-9e96-5f1d4b3ffd10)
+
+![Python Version](https://img.shields.io/badge/python-3.7%2B-blue)
+![License](https://img.shields.io/github/license/BuildaCyberLab/domain-dominator)
+![Repo Stars](https://img.shields.io/github/stars/BuildaCyberLab/domain-dominator?style=social)
+
 **Uncover. Dominate. Secure.**  
 
 **Domain Dominator** is a powerful Python tool for advanced subdomain enumeration and vulnerability detection. It resolves DNS records, maps services, and identifies misconfigurations that could lead to subdomain takeovers, such as unclaimed AWS S3 buckets or GitHub Pages. Lightweight, fast, and open-source, it’s designed for penetration testers, bug bounty hunters, and cybersecurity professionals.  
@@ -32,6 +39,8 @@ Run the tool with a target domain:
 ```bash
 python main.py --domain example.com --output report.json
 ```
+![image](https://github.com/user-attachments/assets/b2ad2045-627a-4302-906b-c367df5ec983)
+
 
 **Example Output:**  
 ```
@@ -45,6 +54,8 @@ python main.py --domain example.com --output report.json
   CNAME: unclaimed.s3.amazonaws.com
   Issue: AWS S3 bucket may be unclaimed.
 ```
+![image](https://github.com/user-attachments/assets/8a31ec60-b2c2-4f1a-8633-072b2a1fa7c6)
+
 
 **JSON Report Example:**  
 ```json
@@ -71,3 +82,18 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## **Disclaimer**  
 This tool is intended for educational and authorized security testing purposes only. Unauthorized use is prohibited.  
+
+---
+## **Quick Start**
+##### Clone the repository
+```
+git clone https://github.com/BuildaCyberLab/domain-dominator.git
+```
+##### Navigate to the project directory
+```
+cd domain-dominator
+```
+##### Install dependencies
+```
+pip install -r requirements.txt
+```
